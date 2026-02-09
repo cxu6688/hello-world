@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday, My Love</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="confetti-canvas" aria-hidden="true"></canvas>
+
+    <header class="hero section unlocked">
+      <div class="glow"></div>
+      <p class="eyebrow">For the most beautiful soul I know</p>
+      <h1>Happy Birthday, <span id="name">My Love</span> ✨</h1>
+      <p class="subtitle">
+        Tonight is about your smile, your magic, and every memory still waiting for us.
+      </p>
+      <button id="wish-button">Make a wish 🎂</button>
+    </header>
+
+    <main>
+      <section class="section lockable" id="timeline-section">
+        <div class="section-content">
+          <h2>Our Story in Moments</h2>
+          <p class="section-lead">Scroll through the highlights that made my heart yours.</p>
+          <ol class="timeline">
+            <li>
+              <span class="year">Moment 01</span>
+              <h3>The day we met</h3>
+              <p>Your laugh instantly felt like home.</p>
+            </li>
+            <li>
+              <span class="year">Moment 02</span>
+              <h3>Our first long walk</h3>
+              <p>We talked for hours and still had more to say.</p>
+            </li>
+            <li>
+              <span class="year">Moment 03</span>
+              <h3>That surprise coffee date</h3>
+              <p>Simple moments with you always feel extraordinary.</p>
+            </li>
+            <li>
+              <span class="year">Moment 04</span>
+              <h3>Our first trip together</h3>
+              <p>Every new place became better because you were there.</p>
+            </li>
+            <li>
+              <span class="year">Moment 05</span>
+              <h3>Cooking night chaos</h3>
+              <p>We burned the food, but made the best memory.</p>
+            </li>
+            <li>
+              <span class="year">Moment 06</span>
+              <h3>Today</h3>
+              <p>Still falling for you in bigger, softer, better ways.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section lockable" id="reasons-section">
+        <div class="section-content">
+          <h2>Reasons I Love You</h2>
+          <p class="section-lead">Tap each card to flip it.</p>
+          <div class="card-grid">
+            <button class="flip-card" type="button">
+              <span class="flip-inner">
+                <span class="flip-front">Your kindness</span>
+                <span class="flip-back">You make everyone around you feel seen and safe.</span>
+              </span>
+            </button>
+            <button class="flip-card" type="button">
+              <span class="flip-inner">
+                <span class="flip-front">Your laugh</span>
+                <span class="flip-back">It turns ordinary days into my favorite days.</span>
+              </span>
+            </button>
+            <button class="flip-card" type="button">
+              <span class="flip-inner">
+                <span class="flip-front">Your strength</span>
+                <span class="flip-back">You rise through every storm with grace and courage.</span>
+              </span>
+            </button>
+            <button class="flip-card" type="button">
+              <span class="flip-inner">
+                <span class="flip-front">Your heart</span>
+                <span class="flip-back">You love so deeply, and I feel lucky every day.</span>
+              </span>
+            </button>
+            <button class="flip-card" type="button">
+              <span class="flip-inner">
+                <span class="flip-front">Your dreams</span>
+                <span class="flip-back">Watching you chase them inspires me endlessly.</span>
+              </span>
+            </button>
+            <button class="flip-card" type="button">
+              <span class="flip-inner">
+                <span class="flip-front">You, always</span>
+                <span class="flip-back">No reason list is long enough for everything I adore.</span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section lockable" id="puzzle-section">
+        <div class="section-content">
+          <h2>Unlock the Final Surprise</h2>
+          <p class="section-lead">
+            Solve the image puzzle by sliding tiles into place. (Placeholder image for now.)
+          </p>
+          <div class="puzzle-wrap">
+            <div id="puzzle" class="puzzle" aria-label="Sliding puzzle"></div>
+            <button id="shuffle-btn" type="button">Shuffle Again</button>
+          </div>
+          <p id="puzzle-status" class="puzzle-status">Arrange the tiles to complete the picture.</p>
+        </div>
+      </section>
+
+      <section class="section" id="letter-section" aria-hidden="true">
+        <div class="section-content letter">
+          <h2>My Love Letter to You 💌</h2>
+          <p>
+            My darling, every day with you feels like a blessing I never want to take for granted.
+            Thank you for your love, your patience, your laughter, and the way you make life feel
+            bright even on the hardest days.
+          </p>
+          <p>
+            On your birthday, I just want you to feel how deeply cherished you are. I promise to
+            keep choosing you, celebrating you, and loving you in all the little and big ways,
+            today and always.
+          </p>
+          <p class="signature">Forever yours.</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
